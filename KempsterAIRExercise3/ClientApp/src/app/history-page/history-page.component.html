@@ -1,0 +1,8 @@
+<h1>Upload History</h1>
+
+<div class="row" *ngFor="let filePath of fileList">
+  {{ filePath }}
+</div>
+<button class="btn btn-sm btn-info" (click)="clearData()">
+  Clear Data
+</button>
